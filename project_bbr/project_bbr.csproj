@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Raylib-cs">
+			<HintPath>..\Raylib-cs\bin\Debug\net6.0\Raylib-cs.dll</HintPath>
+		</Reference>
+
+		<Reference Include="raylib">
+			<HintPath>..\raylib-5.0_win64_msvc16\lib\raylib.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+
+</Project>
