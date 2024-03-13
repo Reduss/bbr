@@ -1,11 +1,14 @@
-﻿using Raylib_cs;
+﻿using project_bbr.src;
+using Raylib_cs;
+using System.Numerics;
 
 class Program
 {
     public static void Main()
     {
 
-        // UPD
+        // Game.Run();
+
 
         Raylib.InitWindow(800, 480, "Hello BBR");
 
